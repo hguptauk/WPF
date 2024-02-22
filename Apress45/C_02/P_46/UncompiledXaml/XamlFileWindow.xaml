@@ -1,0 +1,8 @@
+<local:XamlFileWindow xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:local="clr-namespace:UncompiledXaml;assembly=UncompiledXaml"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  Width="300" Height="300" Title="Loading Xaml Window from file">
+    <DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+        <Button Name="button1" Margin="30" Click="button1_Click">Please click me.</Button>
+    </DockPanel>
+</local:XamlFileWindow>
