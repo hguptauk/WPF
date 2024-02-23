@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+
+        xmlns:textBoxLibrary="clr-namespace:TextBoxLibrary;assembly=TextBoxLibrary"
+        xmlns:colorButtonLibrary="clr-namespace:ButtonLibrary.ColorButton;assembly=ButtonLibrary"
+        xmlns:imageButtonLibrary="clr-namespace:ButtonLibrary.ImageButton;assembly=ButtonLibrary"
+
+        xmlns:myCtrl="mycompany.com/mycontrols">
+    <Grid>
+        <StackPanel>
+            <textBoxLibrary:PinkTextBox>Pink</textBoxLibrary:PinkTextBox>
+            <colorButtonLibrary:GreenButton>Green</colorButtonLibrary:GreenButton>
+            <colorButtonLibrary:YellowButton>Yellow</colorButtonLibrary:YellowButton>
+            <imageButtonLibrary:SaveButton></imageButtonLibrary:SaveButton>
+
+            <myCtrl:PinkTextBox>Pink</myCtrl:PinkTextBox>
+            <myCtrl:GreenButton>Green</myCtrl:GreenButton>
+            <myCtrl:YellowButton>Yellow</myCtrl:YellowButton>
+            <myCtrl:SaveButton></myCtrl:SaveButton>
+        </StackPanel>
+
+    </Grid>
+</Window>
+
+    
+    

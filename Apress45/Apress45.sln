@@ -4,14 +4,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmptyWPFApp", "EmptyWPFApp", "{C9C866AD-BE55-4E18-85B4-60C4E1B41D19}"
+	ProjectSection(SolutionItems) = preProject
+		XmlnsDefinition\ButtonLibrary\AssemblyInfo.cs = XmlnsDefinition\ButtonLibrary\AssemblyInfo.cs
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmptyWPFApp", "EmptyWPFApp\EmptyWPFApp.csproj", "{8EB4E9C4-3EF3-4EE9-B36F-E44C8F9AAF40}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C_02", "C_02", "{44ABDF5F-7F15-4E00-AED8-B8756729F3B2}"
+	ProjectSection(SolutionItems) = preProject
+		XmlnsDefinition\ButtonLibrary\AssemblyInfo.cs = XmlnsDefinition\ButtonLibrary\AssemblyInfo.cs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "P_46", "P_46", "{D754F5A0-C407-4642-B788-44829646D72C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UncompiledXaml", "C_02\P_46\UncompiledXaml\UncompiledXaml.csproj", "{DF3A7299-2A4C-4F7F-9D02-40BEEC63DE85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UncompiledXaml", "C_02\P_46\UncompiledXaml\UncompiledXaml.csproj", "{DF3A7299-2A4C-4F7F-9D02-40BEEC63DE85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XmlnsDefinition", "XmlnsDefinition", "{9B8D4CEA-DC28-4073-BB72-D7395F92A889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonLibrary", "XmlnsDefinition\ButtonLibrary\ButtonLibrary.csproj", "{EC7084EF-20B2-4D57-AB7E-5614CCE3749D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBoxLibrary", "XmlnsDefinition\TextBoxLibrary\TextBoxLibrary.csproj", "{47D0FA89-D983-414B-B87C-68F4B34786FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication", "XmlnsDefinition\WpfApplication\WpfApplication.csproj", "{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +41,18 @@ Global
 		{DF3A7299-2A4C-4F7F-9D02-40BEEC63DE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF3A7299-2A4C-4F7F-9D02-40BEEC63DE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF3A7299-2A4C-4F7F-9D02-40BEEC63DE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7084EF-20B2-4D57-AB7E-5614CCE3749D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7084EF-20B2-4D57-AB7E-5614CCE3749D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7084EF-20B2-4D57-AB7E-5614CCE3749D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7084EF-20B2-4D57-AB7E-5614CCE3749D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47D0FA89-D983-414B-B87C-68F4B34786FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47D0FA89-D983-414B-B87C-68F4B34786FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47D0FA89-D983-414B-B87C-68F4B34786FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47D0FA89-D983-414B-B87C-68F4B34786FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +61,9 @@ Global
 		{8EB4E9C4-3EF3-4EE9-B36F-E44C8F9AAF40} = {C9C866AD-BE55-4E18-85B4-60C4E1B41D19}
 		{D754F5A0-C407-4642-B788-44829646D72C} = {44ABDF5F-7F15-4E00-AED8-B8756729F3B2}
 		{DF3A7299-2A4C-4F7F-9D02-40BEEC63DE85} = {D754F5A0-C407-4642-B788-44829646D72C}
+		{EC7084EF-20B2-4D57-AB7E-5614CCE3749D} = {9B8D4CEA-DC28-4073-BB72-D7395F92A889}
+		{47D0FA89-D983-414B-B87C-68F4B34786FE} = {9B8D4CEA-DC28-4073-BB72-D7395F92A889}
+		{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1} = {9B8D4CEA-DC28-4073-BB72-D7395F92A889}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FECBA3E8-49EC-4449-969B-44B947113659}
