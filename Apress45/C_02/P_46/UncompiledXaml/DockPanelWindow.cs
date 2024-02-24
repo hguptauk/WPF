@@ -3,7 +3,7 @@ using System.Windows.Controls;
 using System.Windows.Markup;
 using System.IO;
 
-namespace UncompiledXaml
+namespace UnCompiledXaml
 {
 
 public class DockPanelWindow : Window

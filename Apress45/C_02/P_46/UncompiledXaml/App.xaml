@@ -1,0 +1,17 @@
+﻿<Application x:Class="FlowDocExample.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="MainWindow.xaml"
+    >
+    <Application.Resources>
+      <Style x:Key="heading1">
+        <Setter Property="TextElement.FontFamily" Value="Calibri, Verdana" />
+        <Setter Property="TextElement.FontSize" Value="24" />
+        <Setter Property="TextElement.FontWeight" Value="Bold" />
+      </Style>
+
+      <Style x:Key="code">
+        <Setter Property="TextElement.FontFamily" Value="Consolas, Lucida Console" />
+      </Style>
+    </Application.Resources>
+</Application>

@@ -17,15 +17,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C_02", "C_02", "{44ABDF5F-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "P_46", "P_46", "{D754F5A0-C407-4642-B788-44829646D72C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UncompiledXaml", "C_02\P_46\UncompiledXaml\UncompiledXaml.csproj", "{DF3A7299-2A4C-4F7F-9D02-40BEEC63DE85}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnCompiledXaml", "C_02\P_46\UncompiledXaml\UnCompiledXaml.csproj", "{DF3A7299-2A4C-4F7F-9D02-40BEEC63DE85}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XmlnsDefinition", "XmlnsDefinition", "{9B8D4CEA-DC28-4073-BB72-D7395F92A889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonLibrary", "XmlnsDefinition\ButtonLibrary\ButtonLibrary.csproj", "{EC7084EF-20B2-4D57-AB7E-5614CCE3749D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ButtonLibrary", "XmlnsDefinition\ButtonLibrary\ButtonLibrary.csproj", "{EC7084EF-20B2-4D57-AB7E-5614CCE3749D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBoxLibrary", "XmlnsDefinition\TextBoxLibrary\TextBoxLibrary.csproj", "{47D0FA89-D983-414B-B87C-68F4B34786FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextBoxLibrary", "XmlnsDefinition\TextBoxLibrary\TextBoxLibrary.csproj", "{47D0FA89-D983-414B-B87C-68F4B34786FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication", "XmlnsDefinition\WpfApplication\WpfApplication.csproj", "{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApplication", "XmlnsDefinition\WpfApplication\WpfApplication.csproj", "{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
