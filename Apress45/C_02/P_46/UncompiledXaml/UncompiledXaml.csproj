@@ -15,19 +15,19 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="DockPanel.xaml">
+    <None Include="UnCompiledXAML\DockPanel.xaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Xaml2009Window.xaml">
+    <None Include="UnCompiledXAML\Xaml2009Window.xaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="XamlFileWindow.xaml">
+    <None Include="UnCompiledXAML\XamlFileWindow.xaml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
   <ItemGroup>
-    <Page Update="MyFlowDocument.xaml">
+    <Page Update="CompiledXAML\MyFlowDocument.xaml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <Generator>MSBuild:Compile</Generator>
     </Page>

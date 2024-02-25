@@ -83,19 +83,19 @@ namespace UnCompiledXaml
         private void Button5_OnClick(object sender, RoutedEventArgs e)
         {
             DockPanelWindow window = new DockPanelWindow();
-            window.LoadXamlToThisWindow("DockPanel.xaml");
+            window.LoadXamlToThisWindow("UnCompiledXAML\\DockPanel.xaml");
             window.Show();
         }
 
         private void Button6_OnClick(object sender, RoutedEventArgs e)
         {
-            XamlFileWindow window = XamlFileWindow.LoadWindowFromXaml("XamlFileWindow.xaml");
+            XamlFileWindow window = XamlFileWindow.LoadWindowFromXaml("UnCompiledXAML\\XamlFileWindow.xaml");
             window.Show();
         }
 
         private void Button7_OnClick(object sender, RoutedEventArgs e)
         {
-            Xaml2009Window window = Xaml2009Window.LoadWindowFromXaml("Xaml2009Window.xaml");
+            Xaml2009Window window = Xaml2009Window.LoadWindowFromXaml("UnCompiledXAML\\Xaml2009Window.xaml");
             window.Show();
         }
     }

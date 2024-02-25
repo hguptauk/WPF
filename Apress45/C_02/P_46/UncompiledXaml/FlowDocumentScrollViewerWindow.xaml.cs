@@ -15,7 +15,7 @@ namespace UnCompiledXaml
         {
             InitializeComponent();
             FlowDocumentScrollViewer1.Document = (FlowDocument)Application.LoadComponent(
-                new Uri("MyFlowDocument.xaml", UriKind.Relative));
+                new Uri("CompiledXAML\\MyFlowDocument.xaml", UriKind.Relative));
         }
     }
 
