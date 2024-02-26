@@ -27,6 +27,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextBoxLibrary", "XmlnsDefi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApplication", "XmlnsDefinition\WpfApplication\WpfApplication.csproj", "{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "P_42", "P_42", "{473E5282-5998-4899-8DD5-2AE4133B19D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConverterForParameterizedConstructor", "C_02\P_42\TypeConverterForParameterizedConstructor\TypeConverterForParameterizedConstructor.csproj", "{72FF4A00-0141-4B99-8AD7-0B0E9775318E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,10 @@ Global
 		{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72FF4A00-0141-4B99-8AD7-0B0E9775318E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72FF4A00-0141-4B99-8AD7-0B0E9775318E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72FF4A00-0141-4B99-8AD7-0B0E9775318E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72FF4A00-0141-4B99-8AD7-0B0E9775318E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +72,8 @@ Global
 		{EC7084EF-20B2-4D57-AB7E-5614CCE3749D} = {9B8D4CEA-DC28-4073-BB72-D7395F92A889}
 		{47D0FA89-D983-414B-B87C-68F4B34786FE} = {9B8D4CEA-DC28-4073-BB72-D7395F92A889}
 		{92F8F3D3-2B2E-4761-A0F1-3A00432BDAC1} = {9B8D4CEA-DC28-4073-BB72-D7395F92A889}
+		{473E5282-5998-4899-8DD5-2AE4133B19D2} = {44ABDF5F-7F15-4E00-AED8-B8756729F3B2}
+		{72FF4A00-0141-4B99-8AD7-0B0E9775318E} = {473E5282-5998-4899-8DD5-2AE4133B19D2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FECBA3E8-49EC-4449-969B-44B947113659}
